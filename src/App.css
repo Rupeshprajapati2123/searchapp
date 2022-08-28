@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+*{
+  transition: all smooth 0.3s;
+  font-family: 'Rubik', sans-serif;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+body{
+/* background-color: #19d2a6;
+ */
+ background-image: url('https://img.freepik.com/free-photo/blurry-background-clothing-store_1203-1643.jpg?w=1060&t=st=1661718924~exp=1661719524~hmac=cc595546c214b5c0c0bef11bd1e4eedb92154a7bc664e4a075df8d0e90d74c79');
+ 
+}
+.App{
+  visibility: visible;
+}
+
+input[type=text] {
+  margin-left:30vw;  
+  margin-bottom: 2vh;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+  height: 3rem;
+}
+.head{
+  font-size: 2.5rem; 
+  /* margin-left: 5.4rem; */
+}
+.view{
+  position:absolute;
+  top:40rem;
+}
+.para{
+  text-align: left;
+  margin-left: 0.4rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.cardcon{
+background-color: antiquewhite;
+text-align: center;
+width: 15rem;
+overflow: hidden;
+border:solid 1px black;
+}
+.cardcon:hover{
+  cursor: pointer;
+}
+.card{
+  width: 20rem;
+  overflow: hidden;
+  background-color: black;
+}
+.view{
+  background-color: antiquewhite;
+}
+*{
+  margin:0;
+  padding:0;
+}
+.img{
+  margin-top: -1.2rem;
+  height: 14rem;
+  margin-right: 0.5rem;
+  width: 14rem;
+}
+
+.heart{
+  color:white;
+  font-size: 1.5 rem;
+  position: relative;
+  top:1rem;
+  right: -5.5rem;
+  visibility: hidden;
+}
+.buy{
+  position:relative;
+  top:-1.4rem;
+  visibility: hidden;
+  background-color: rgba(137, 43, 226, 0.44);
+  
+}
+.top{
+  display: flex;
+  flex-direction: column;
+padding-left: 5vw;
+/* background-color:rgba(212, 205, 205, 0.462); */
+}
+
+h5{
+  cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+  *{
+    flex-direction: column;
+  }
+  .cardbox{
+    width:50vw;
+  }
+}
